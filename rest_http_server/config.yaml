@@ -1,0 +1,14 @@
+environment: 'dev'
+log: '/var/log/generic_service.log'
+newrelic:
+    appname: '-service-development'
+    licence: ''
+
+rollbar:
+    token: ''
+
+rest:
+    addr: 'localhost:8080'
+
+databases:
+    rewardstyle: 'root:@/rewardstyle'
